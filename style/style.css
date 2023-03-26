@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+
+}
+/* For Header Work */
+nav {
+    display: flex;
+    width: 100%;
+    height: 20hv;
+    padding: 10px 0px;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.Logo {
+    margin-left: 40px;
+    width: 125px;
+    height: 45px;
+}
+nav ul{
+    display: flex;
+    align-items:center;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-left: 40px;
+    gap: 60px;
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+nav ul li a:hover {
+    font-size: 20px;
+    /* position: absolute; */
+    font-weight: 600;
+    color: #5955B3;
+    transition: .3s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+
+nav ul li img {
+    margin-left: 40px;
+    width: 125px;
+    height: 45px;
+}
+
+.btn1 button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    font-weight: 500;
+    margin-left: 680px;
+    margin-bottom: 10px;
+    background-color: #5955B3;
+    border: 1px solid #ffffff;
+    color: #FFFFFF;
+}
+
+.btn1 button:hover {
+    background-color: #FFFFFF;
+    color: #5955B3;
+    font-weight: 700;
+    font-size: 15px;
+    border: 2px solid black;
+}
+
+
+/* Main Section */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Main Section left */
+
+.main-sec-left{
+    margin-left: 40px;
+}
+
+.main-sec-left h1 {
+    color: #3C2E60;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.main-sec-left h1 span {
+    color: #5955B3;
+}
+
+.main-sec-left p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:#828282;
+}
+.main-sec-left button {
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 50px;
+    background-color: #5955B3;
+    border: 1px solid #ffffff;
+    color: #FFFFFF;
+}
+
+.main-sec-left button:hover {
+    background-color: #FFFFFF;
+    color: #5955B3;
+    font-weight: 700;
+    font-size: 15px;
+    border: 2px solid black;
+}
+
+/* Main section right */
+
+.main-sec-right img {
+    height: 600px;
+    width: 700px;
+    margin-right: 40px;
+}
